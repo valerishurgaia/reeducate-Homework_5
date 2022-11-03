@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 600;
+    position: absolute;
+}
+
+.box {
+    border: 1px solid black;
+    top: 20px;
+    padding: 15px 10vw 80vh 15px;
+}
+
+.one {
+    left: 14vw;
+}
+
+.two {
+    left: 32vw;
+}
+
+.three {
+    left: 50vw;
+}
+
+.four {
+    left: 68vw;
+}
+

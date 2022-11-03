@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 1000px;
+    height: 1000px;
+    background-repeat: no-repeat;
+}
+
+.one {
+    background-size: contain;
+    background-image: url(/background_images/whistler-village.jpg);
+}
+
+.two {
+    background: center;
+    background-image: url(/background_images/image_print.jpg);
+}

@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+
+.header {
+    width: 800px;
+    height: 150px;
+    border: 1px solid black;
+    margin: auto;
+    position: relative;
+}
+
+.header > * {
+    border: 1px solid black;
+}
+
+.logo {
+    width: 45%;
+    height: 70px;
+    padding: 5px 20px 0px 5px; 
+    margin: 5px 0 0 5px
+}
+
+.top-nav {
+    float: right;
+    padding: 0 70px 0 5px;
+    position: relative;
+    bottom: 65px;
+    right: 20px;
+}
+
+.menu {
+    width: 60%;
+    padding-left: 5px;
+    float: right;
+    position: relative;
+    top: 40px;
+    left: 120px;
+}
